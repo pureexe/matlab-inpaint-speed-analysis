@@ -1,0 +1,10 @@
+function result = Divergence(w,b)
+h = 1;
+T = (w-b);
+[total_height,width] = size(T);
+height = total_height/2;
+T1 = T(1:height,:);
+T2 = T(height+1:total_height,:);
+Tx = [diff(T1);zeros(1,width)]/h;
+Ty = ([diff(T2')' zeros(height,1)])/h;
+result = Tx + Ty;
