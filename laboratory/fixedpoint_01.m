@@ -23,9 +23,11 @@ lambda = lambda*inpaint_domain;
 disp('Fixed-point')
 disp(sprintf('test case number: %d',test_case_number));
 timer_counter = cputime;
-inpainted_fixedpoint_image = FixedPointInpainter(toinpaint_image,lambda,theta,omega,GSiter,tolerant,max_iteration,false);
+inpainted_fixedpoint_image = FixedPointInpainter(toinpaint_image,lambda,theta,omega,GSiter,tolerant,max_iteration,true);
 totaltime = cputime - timer_counter;
 disp(sprintf('total time: %f',totaltime));
 disp('RMSE ')
 disp(sqrt(mean((inpainted_fixedpoint_image(:) - original_image(:)).^2))); 
+disp('PSNR');
+disp(psnr(inpainted_fixedpoint_image,original_image));
 imwrite(inpainted_fixedpoint_image,sprintf('case%d_fixpoint.png',test_case_number));

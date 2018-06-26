@@ -23,9 +23,11 @@ lambda = lambda*inpaint_domain;
 disp('Split Bergman')
 disp(sprintf('test case number: %d',test_case_number));
 timer_counter = cputime;
-inpainted_splitbergman_image = SplitBergmanInpainter(toinpaint_image,lambda,theta,omega,GSiter,tolerant,max_iteration,false);
+inpainted_splitbergman_image = SplitBergmanInpainter(toinpaint_image,lambda,theta,omega,GSiter,tolerant,max_iteration,true);
 totaltime = cputime - timer_counter;
 disp(sprintf('total time: %f',totaltime));
 disp('RMSE ')
 disp(sqrt(mean((inpainted_splitbergman_image(:) - original_image(:)).^2)));
+disp('PSNR');
+disp(psnr(inpainted_splitbergman_image,original_image));
 imwrite(inpainted_splitbergman_image,sprintf('case%d_splitbergman.png',test_case_number));

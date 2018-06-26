@@ -9,7 +9,7 @@ function u = SplitBergmanInpainter(original_image,lambda,theta,omega,GSiter,tole
     while image_norm > tolerant && i < max_iteration
         timer_counter = cputime;
         if debug == true
-            disp(sprintf('loop: %d',i+1));
+            fprintf('loop: %d\n',i+1);
         end
         last_image = u;
         u = uSolver(w,u,original_image,b,lambda,theta,omega,GSiter,debug); %solve u
@@ -19,7 +19,7 @@ function u = SplitBergmanInpainter(original_image,lambda,theta,omega,GSiter,tole
         i = i + 1;
         totaltime = cputime - timer_counter;
         if debug == true
-            disp(sprintf('loop time: %f',totaltime));
+            fprintf('loop time: %f\n',totaltime);
         end
     end
 end
