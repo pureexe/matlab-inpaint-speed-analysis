@@ -1,5 +1,5 @@
 clc;clear;close all;
-test_case_number = 4;
+test_case_number = 1;
 inpaint_domain = imread(sprintf('../images/case%d_inpaintdomain.png',test_case_number));
 original_image = imread(sprintf('../images/case%d_original.png',test_case_number));
 toinpaint_image = imread(sprintf('../images/case%d_toinpaint.png',test_case_number));
@@ -11,12 +11,11 @@ toinpaint_image = double(toinpaint_image) / 255;
 addpath('../SplitBergmanInpainter');
 
 lambda = 10;
-theta = 1/200;
+theta = 1e-6;
 tolerant = 1e-6;
 max_iteration = 1000;
 omega = 1.85;
 GSiter = 3;
-beta = 1.0e-6;
 
 lambda = lambda*inpaint_domain;
 
