@@ -1,5 +1,5 @@
 clc;clear;close all;
-test_case_number = 2;
+test_case_number = 1;
 inpaint_domain = imread(sprintf('../../images/256x256/case%d_inpaintdomain.png',test_case_number));
 original_image = imread(sprintf('../../images/256x256/case%d_original.png',test_case_number));
 toinpaint_image = imread(sprintf('../../images/256x256/case%d_toinpaint.png',test_case_number));

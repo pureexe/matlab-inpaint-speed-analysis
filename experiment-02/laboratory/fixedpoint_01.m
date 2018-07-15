@@ -1,5 +1,5 @@
 clc;clear;close all;
-test_case_number = 5;
+test_case_number = 4;
 inpaint_domain = imread(sprintf('../../images/256x256/case%d_inpaintdomain.png',test_case_number));
 original_image = imread(sprintf('../../images/256x256/case%d_original.png',test_case_number));
 toinpaint_image = imread(sprintf('../../images/256x256/case%d_toinpaint.png',test_case_number));
@@ -10,7 +10,7 @@ toinpaint_image = double(toinpaint_image) / 255;
 
 addpath('../FixPointInpainter');
 
-lambda = 250;
+lambda = 1404;
 beta = 1/1000;
 tolerant = 1e-6;
 max_iteration = 1000;
@@ -25,8 +25,6 @@ timer_counter = cputime;
 inpainted_fixedpoint_image = FixedPointInpainter(toinpaint_image,lambda,beta,omega,GSiter,tolerant,max_iteration,false);
 totaltime = cputime - timer_counter;
 disp(sprintf('total time: %f',totaltime));
-disp('RMSE ')
-disp(sqrt(mean((inpainted_fixedpoint_image(:) - original_image(:)).^2))); 
 disp('PSNR');
 disp(psnr(inpainted_fixedpoint_image,original_image));
 imwrite(inpainted_fixedpoint_image,sprintf('case%d_fixpoint.png',test_case_number));
