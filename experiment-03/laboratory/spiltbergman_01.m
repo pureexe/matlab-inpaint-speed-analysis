@@ -8,7 +8,7 @@ inpaint_domain = double(inpaint_domain);
 original_image = double(original_image) / 255;
 toinpaint_image = double(toinpaint_image) / 255;
 
-addpath('../SplitBergmanInpainter');
+addpath('../GaussSeidel');
 
 lambda = 20000;
 theta = 5;
