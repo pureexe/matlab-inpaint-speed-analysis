@@ -1,0 +1,3 @@
+ffmpeg.exe -i "Before.avs" "C:\Users\pakkapon\Documents\Github\matlab-inpaint-speed-analysis\experiment-05\resource\original\$filename%04d.png"
+
+ffmpeg.exe -i "After.avs" "C:\Users\pakkapon\Documents\Github\matlab-inpaint-speed-analysis\experiment-05\resource\thai\$filename%04d.png"

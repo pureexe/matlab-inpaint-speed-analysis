@@ -1,0 +1,19 @@
+Measure-Command{
+ffmpeg.exe -y -i "After.avs" -c:v h264_nvenc -rc constqp -preset lossless -profile:v high -qp 0 -c:a aac -b:a 128k -aac_coder 1 "thai.mp4"
+}
+
+Measure-Command{
+ffmpeg.exe -y -i "Before.avs" -c:v h264_nvenc -rc constqp -preset lossless -profile:v high -qp 0 -c:a aac -b:a 128k -aac_coder 1 "original.mp4"
+}
+
+Measure-Command{
+ffmpeg.exe -y -i "After.avs" -c:v rawvideo -pix_fmt bgr24 -c:a aac -b:a 128k -aac_coder 1 "thai.avi"
+}
+
+Measure-Command{
+ffmpeg.exe -y -i "Before.avs" -c:v rawvideo -pix_fmt bgr24 -c:a aac -b:a 128k -aac_coder 1 "original.avi"
+}
+
+ffmpeg -i thai_crop.avs -i original_crop.avs -lavfi  "ssim;[0:v][1:v]psnr" -f null -
+
+ffmpeg -i test-rgb.avs -f null -

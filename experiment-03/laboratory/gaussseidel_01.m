@@ -10,7 +10,7 @@ omega = 1;
 GSiter = 1;
 lab_result = zeros(5,5);
 
-for test_case_number = 1:5
+for test_case_number = 1:1
     fprintf("TEST CASE %d:\n",test_case_number);
     inpaint_domain = imread(sprintf('../../images/256x256/case%d_inpaintdomain.png',test_case_number));
     original_image = imread(sprintf('../../images/256x256/case%d_original.png',test_case_number));
@@ -34,5 +34,5 @@ for test_case_number = 1:5
     lab_result(test_case_number,5) = loop;
 end
 
-csvwrite('gauss_seidel.csv',lab_result);
+%csvwrite('gauss_seidel_bypass.csv',lab_result);
 % mesh(inpainted_splitbergman_image);

@@ -1,4 +1,4 @@
-M = 256;
+felixM = 256;
 [X1,X2] = meshgrid(1:M,1:M);  
 image = 50*ones(M,M); 
 image((X1-M/2).^2 + (X2-M/2).^2 < (M/3)^2) = 100;%Circle

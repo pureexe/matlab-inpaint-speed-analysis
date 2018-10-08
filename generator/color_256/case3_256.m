@@ -31,7 +31,7 @@ image(:,193:224,3) = 255;
 % white
 image(:,225:256,:) = 128;
 
-imwrite(image,'case3_original.png');
+imwrite(image,'caseB_original.png');
 M = 256;
 [X1,X2] = meshgrid(1:M,1:M);  
 domain = 0*uint8(ones(M,M)); 
@@ -40,5 +40,5 @@ domain((X1-M/2).^2 + (X2-M/2).^2 < (M/6)^2) = 255;%Circle
 to_inpaint = image;
 to_inpaint((X1-M/2).^2 + (X2-M/2).^2 < (M/6)^2) = 255;
 
-imwrite(domain,'case3_inpaintdomain.png');
-imwrite(to_inpaint,'case3_toinpaint.png');
+imwrite(domain,'caseB_inpaintdomain.png');
+imwrite(to_inpaint,'caseB_toinpaint.png');
