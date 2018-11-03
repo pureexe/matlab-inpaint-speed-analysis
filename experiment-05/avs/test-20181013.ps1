@@ -12,6 +12,13 @@ $data =
 	"borrowframe-mul-100-5-5-5",
 	"borrowframe-mul-100-5-5-10",
 	"borrowframe-mul-100-5-5-10",
+	"skipnborrow-normal",
+	"skipnborrow-mul-10-1-1-10",
+	"skipnborrow-mul-10-3-3-10",
+	"skipnborrow-mul-10-10-10-10",
+	"skipnborrow-mul-100-5-5-5",
+	"skipnborrow-mul-100-5-5-10",
+	"skipnborrow-mul-100-5-5-10",
 	"opencv-normal"
 
 Foreach ($name in $data)

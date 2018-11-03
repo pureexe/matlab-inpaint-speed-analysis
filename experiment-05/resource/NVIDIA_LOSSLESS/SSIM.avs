@@ -19,8 +19,8 @@ LoadPlugin("C:\Program Files (x86)\Konayuki-moe\KONAYUKI PLUS\codecs\filters\VSF
 
 #Apply Filter
 
-OriginalPart = FFMS2("original.mp4", ATrack=-2, fpsnum=24000, fpsden=1001, ColorSpace="YV12", UTF8=True).Crop(280,620,720,70)
-CurrentPart =  FFMS2("thai.mp4", ATrack=-2, fpsnum=24000, fpsden=1001, ColorSpace="YV12", UTF8=True).Crop(280,620,720,70)
+OriginalPart = FFMS2("../original.mp4", ATrack=-2, fpsnum=24000, fpsden=1001, ColorSpace="YV12", UTF8=True).Crop(280,620,720,70)
+CurrentPart =  FFMS2("../thai.mp4", ATrack=-2, fpsnum=24000, fpsden=1001, ColorSpace="YV12", UTF8=True).Crop(280,620,720,70)
 
 
 
