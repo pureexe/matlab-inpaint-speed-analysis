@@ -1,0 +1,62 @@
+PS C:\Users\pakkapon\Documents\Github\matlab-inpaint-speed-analysis\experiment-05\avs\NewPSNR> .\test-20181105.ps1
+===================
+-------------------
+skipborrowlinearlize
+Loop: 10
+Processed in 98.3547813
+Compareing Result... skipborrowlinearlize
+Compared in 98.1880403
+[Parsed_ssim_0 @ 00000152ffcbce40] SSIM R:0.868407 (8.807682) G:0.868449 (8.809069) B:0.866443 (8.743325) All:0.867766 (8.786584)
+[Parsed_psnr_1 @ 000001528bb75240] PSNR r:24.279143 g:24.153295 b:24.137470 average:24.189508 min:7.771274 max:53.688352
+-------------------
+skipborrowlinearlize
+Loop: 10/1/1/10
+Processed in 96.5903767
+Compareing Result... skipborrowlinearlize
+Compared in 109.7131496
+[Parsed_ssim_0 @ 0000027d5ac2ce40] SSIM R:0.933285 (11.757733) G:0.938015 (12.077151) B:0.936719 (11.987271) All:0.936006 (11.938628)
+[Parsed_psnr_1 @ 0000027d66b05240] PSNR r:26.433827 g:26.257809 b:26.417873 average:26.369106 min:7.763508 max:54.253116
+-------------------
+skipborrowlinearlize
+Loop: 10/3/3/10
+Processed in 99.4886171
+Compareing Result... skipborrowlinearlize
+Compared in 93.0953046
+[Parsed_ssim_0 @ 0000028d346440c0] SSIM R:0.964662 (14.517561) G:0.967069 (14.823940) B:0.967441 (14.873341) All:0.966391 (14.735411)
+[Parsed_psnr_1 @ 0000028d34645340] PSNR r:34.407622 g:34.257143 b:35.618820 average:34.719866 min:21.303174 max:63.731214
+
+-------------------
+skipborrowlinearlize
+Loop: 10/10/10/10
+Processed in 98.3873554
+Compareing Result... skipborrowlinearlize
+Compared in 98.2157994
+[Parsed_ssim_0 @ 000001b2d45b00c0] SSIM R:0.933205 (11.752563) G:0.937783 (12.060894) B:0.936345 (11.961656) All:0.935778 (11.923131)
+[Parsed_psnr_1 @ 000001b2d45b1300] PSNR r:26.548308 g:26.373093 b:26.506696 average:26.475387 min:7.741986 max:54.118782
+-------------------
+skipborrowlinearlize
+Loop: 100/5/5/5
+Processed in 68.5831345
+Compareing Result... skipborrowlinearlize
+Compared in 83.286276
+[Parsed_ssim_0 @ 0000023df68f00c0] SSIM R:0.952907 (13.270416) G:0.955036 (13.471362) B:0.955866 (13.552288) All:0.954603 (13.429735)
+[Parsed_psnr_1 @ 0000023df68f1300] PSNR r:33.537259 g:33.293601 b:34.672675 average:33.794214 min:21.462961 max:63.923128
+
+-------------------
+skipborrowlinearlize
+Loop: 100/5/5/10
+Processed in 96.6395645
+Compareing Result... skipborrowlinearlize
+Compared in 96.6645653
+[Parsed_ssim_0 @ 000002518e9d00c0] SSIM R:0.964240 (14.466025) G:0.966558 (14.757098) B:0.966971 (14.811096) All:0.965923 (14.675413)
+[Parsed_psnr_1 @ 000002518e9d1300] PSNR r:34.550147 g:34.385048 b:35.795963 average:34.866307 min:21.414298 max:64.064951
+
+===================
+OpenCV
+Processed in 38.8657106
+Compared in 69.006593
+[Parsed_ssim_0 @ 0000023ac1f400c0] SSIM R:0.967276 (14.851390) G:0.968568 (15.026324) B:0.969713 (15.187399) All:0.968519 (15.019539)
+[Parsed_psnr_1 @ 0000023ac1f41300] PSNR r:33.476345 g:33.551698 b:34.029068 average:33.678896 min:26.713622 max:63.436870
+
+PS C:\Users\pakkapon\Documents\Github\matlab-inpaint-speed-analysis\experiment-05\avs\NewPSNR>
+PS C:\Users\pakkapon\Documents\Github\matlab-inpaint-speed-analysis\experiment-05\avs\NewPSNR>

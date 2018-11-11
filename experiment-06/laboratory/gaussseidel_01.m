@@ -2,15 +2,15 @@ clc;clear;close all;
 
 addpath('../GaussSeidel');
 
-lambda_constance = 250;
-theta = 1;
+lambda_constance = 500;
+theta = 1/10;
 tolerant = 1e-6;
 max_iteration = 10000;
 omega = 1;
 GSiter = 1;
 lab_result = zeros(5,6);
 
-for test_case_number = 1:5
+for test_case_number = 2
     fprintf("TEST CASE %d:\n",test_case_number);
     inpaint_domain = imread(sprintf('../../images/256x256/case%d_inpaintdomain.png',test_case_number));
     original_image = imread(sprintf('../../images/256x256/case%d_original.png',test_case_number));
@@ -34,7 +34,11 @@ for test_case_number = 1:5
     lab_result(test_case_number,4) = PSNR;
     lab_result(test_case_number,5) = SSIM;
     lab_result(test_case_number,6) = loop;
+    disp("PSNR")
+    disp(PSNR)
+    disp("SSIM")
+    disp(SSIM)
 end
 
-csvwrite('gauss_seidel.csv',lab_result);
+%csvwrite('gauss_seidel.csv',lab_result);
 % mesh(inpainted_splitbergman_image);

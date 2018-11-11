@@ -1,0 +1,56 @@
+PS C:\Users\pakkapon\Documents\Github\matlab-inpaint-speed-analysis\experiment-05\avs\NewPSNR> .\test-20181106.ps1
+===================
+-------------------
+skipnborrow
+Loop: 10
+Processed in 60.6101953
+Compareing Result... skipnborrow
+Compared in 79.6449291
+[Parsed_ssim_0 @ 000001a34ca1ce40] SSIM R:0.866093 (8.731969) G:0.865273 (8.705456) B:0.864206 (8.671179) All:0.865191 (8.702798)
+[Parsed_psnr_1 @ 000001a358865240] PSNR r:26.277142 g:26.114984 b:26.230338 average:26.206952 min:21.281391 max:63.599724
+
+-------------------
+skipnborrow
+Loop: 10/1/1/10
+Processed in 65.2318174
+Compareing Result... skipnborrow
+Compared in 77.4989972
+[Parsed_ssim_0 @ 000001db85f200c0] SSIM R:0.933457 (11.768976) G:0.935754 (11.921569) B:0.937541 (12.044071) All:0.935584 (11.910081)
+[Parsed_psnr_1 @ 000001db85f21300] PSNR r:32.147814 g:31.936255 b:33.004853 average:32.338951 min:21.631580 max:66.983864
+
+-------------------
+skipnborrow
+Loop: 10/3/3/10
+Processed in 58.5839932
+Compareing Result... skipnborrow
+Compared in 78.4076162
+[Parsed_ssim_0 @ 00000285f65300c0] SSIM R:0.904729 (10.210374) G:0.909047 (10.411838) B:0.908137 (10.368574) All:0.907304 (10.329397)
+[Parsed_psnr_1 @ 00000285f6531300] PSNR r:26.212891 g:26.034078 b:26.186318 average:26.143712 min:7.713727 max:61.662981
+-------------------
+skipnborrow
+Loop: 10/10/10/10
+Processed in 62.3316455
+Compareing Result... skipnborrow
+Compared in 79.5452505
+[Parsed_ssim_0 @ 000001f1ebdd00c0] SSIM R:0.923366 (11.155766) G:0.927222 (11.380024) B:0.926188 (11.318740) All:0.925592 (11.283811)
+[Parsed_psnr_1 @ 000001f1ebdd1300] PSNR r:26.433790 g:26.254336 b:26.389765 average:26.358624 min:7.751861 max:62.135409
+-------------------
+skipnborrow
+Loop: 100/5/5/5
+Processed in 53.2400834
+Compareing Result... skipnborrow
+Compared in 74.5095588
+[Parsed_ssim_0 @ 00000145b1dc40c0] SSIM R:0.914463 (10.678460) G:0.922869 (11.127685) B:0.923278 (11.150811) All:0.920203 (10.980149)
+[Parsed_psnr_1 @ 00000145b1dc5340] PSNR r:26.131205 g:25.958984 b:26.124105 average:26.070700 min:7.731632 max:62.135409
+-------------------
+skipnborrow
+Loop: 100/5/5/10
+Processed in 60.6962376
+Compareing Result... skipnborrow
+Compared in 79.3039912
+[Parsed_ssim_0 @ 00000170a95a00c0] SSIM R:0.952993 (13.278402) G:0.958292 (13.797811) B:0.959717 (13.948756) All:0.957001 (13.665389)
+[Parsed_psnr_1 @ 00000170a95a1300] PSNR r:33.792122 g:33.637253 b:34.869161 average:34.065982 min:21.674285 max:64.341636
+
+===================
+OpenCV
+Processed in 41.8730606
