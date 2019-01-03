@@ -1,0 +1,11 @@
+PS C:\Users\pakkapon\Documents\Github\matlab-inpaint-speed-analysis\experiment-09\taskrunner\splitbergman-non-skip-borrow> .\test-10000loop.ps1
+===================
+-------------------
+splitbergman
+Loop: 10000
+CASE: 01
+Processed in 5318.3644792
+Compareing Result... splitbergman
+Compared in 4112.5417165
+[Parsed_ssim_0 @ 000001881447a4c0] SSIM R:0.967404 (14.868309) G:0.971684 (15.479717) B:0.968942 (15.078227) All:0.969343 (15.134736)
+[Parsed_psnr_1 @ 000001881447b700] PSNR r:32.658171 g:34.391710 b:33.527510 average:33.468312 min:19.147410 max:inf

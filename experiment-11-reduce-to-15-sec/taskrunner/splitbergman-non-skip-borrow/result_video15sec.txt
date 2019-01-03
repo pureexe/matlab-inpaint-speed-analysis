@@ -1,0 +1,257 @@
+PS C:\Users\pakkapon\Documents\Github\matlab-inpaint-speed-analysis\experiment-11-reduce-to-15-sec\taskrunner\splitbergman-non-skip-borrow> .\runner.ps1
+===================
+-------------------
+splitbergman
+Loop: 10/3/3/10
+CASE: 01
+Processed in 34.2618988
+Compareing Result... splitbergman
+Compared in 34.3307593
+[Parsed_ssim_0 @ 000001f6b5d5a4c0] SSIM R:0.972346 (15.582378) G:0.969016 (15.088633) B:0.959615 (13.937782) All:0.966992 (14.813840)
+[Parsed_psnr_1 @ 000001f6b5d5b700] PSNR r:35.707210 g:34.852604 b:33.111697 average:34.419666 min:27.449769 max:inf
+
+-------------------
+splitbergman
+Loop: 10/3/3/10
+CASE: 02
+Processed in 29.9435723
+Compareing Result... splitbergman
+Compared in 33.3188985
+[Parsed_ssim_0 @ 0000021249b8bfc0] SSIM R:0.962804 (14.295061) G:0.963565 (14.384854) B:0.953097 (13.288029) All:0.959822 (13.960153)
+[Parsed_psnr_1 @ 0000021249b8d240] PSNR r:32.466324 g:33.320235 b:31.579919 average:32.397492 min:23.638221 max:inf
+
+-------------------
+splitbergman
+Loop: 10/3/3/10
+CASE: 03
+Processed in 28.8380235
+Compareing Result... splitbergman
+Compared in 33.4742191
+[Parsed_ssim_0 @ 000001eab477a4c0] SSIM R:0.941636 (12.338515) G:0.964026 (14.440111) B:0.953182 (13.295878) All:0.952948 (13.274210)
+[Parsed_psnr_1 @ 000001eab477b700] PSNR r:35.592860 g:33.699903 b:31.282577 average:33.167262 min:22.397755 max:inf
+
+-------------------
+splitbergman
+Loop: 10/3/3/10
+CASE: 04
+Processed in 31.0810704
+Compareing Result... splitbergman
+Compared in 35.0600684
+[Parsed_ssim_0 @ 000001855d0605c0] SSIM R:0.929462 (11.515797) G:0.962949 (14.312057) B:0.957064 (13.671735) All:0.949825 (12.995142)
+[Parsed_psnr_1 @ 000001855d11b7c0] PSNR r:36.839574 g:34.797099 b:31.975352 average:34.078472 min:22.231371 max:inf
+
+-------------------
+splitbergman
+Loop: 10/3/3/10
+CASE: 05
+Processed in 32.8208788
+Compareing Result... splitbergman
+Compared in 34.2297705
+[Parsed_ssim_0 @ 000001dacceca4c0] SSIM R:0.912563 (10.583047) G:0.965535 (14.626210) B:0.968866 (15.067620) All:0.948988 (12.923271)
+[Parsed_psnr_1 @ 000001daccecb700] PSNR r:37.207872 g:37.221960 b:35.450553 average:36.543966 min:27.647046 max:inf
+
+===================
+-------------------
+borrowframe
+Loop: 10/3/3/10
+CASE: 01
+Processed in 31.7979484
+Compareing Result... borrowframe
+Compared in 33.2917478
+[Parsed_ssim_0 @ 000001f2acbca4c0] SSIM R:0.979139 (16.806592) G:0.974092 (15.865578) B:0.966682 (14.773251) All:0.973304 (15.735572)
+[Parsed_psnr_1 @ 000001f2acbcb700] PSNR r:36.671357 g:35.836948 b:33.937477 average:35.326931 min:26.596917 max:inf
+
+-------------------
+borrowframe
+Loop: 10/3/3/10
+CASE: 02
+Processed in 31.1156176
+Compareing Result... borrowframe
+Compared in 35.030529
+[Parsed_ssim_0 @ 00000248ff3805c0] SSIM R:0.971245 (15.412893) G:0.966914 (14.803578) B:0.958377 (13.806665) All:0.965512 (14.623337)
+[Parsed_psnr_1 @ 00000248ff43b7c0] PSNR r:33.616053 g:33.730116 b:31.916441 average:33.005232 min:23.522863 max:inf
+
+-------------------
+borrowframe
+Loop: 10/3/3/10
+CASE: 03
+Processed in 29.0888022
+Compareing Result... borrowframe
+Compared in 33.4752219
+[Parsed_ssim_0 @ 00000217d540a4c0] SSIM R:0.975267 (16.067251) G:0.969438 (15.148124) B:0.958138 (13.781813) All:0.967614 (14.896467)
+[Parsed_psnr_1 @ 00000217d540b700] PSNR r:37.418229 g:34.276288 b:31.666201 average:33.850528 min:22.633566 max:inf
+
+-------------------
+borrowframe
+Loop: 10/3/3/10
+CASE: 04
+Processed in 32.8581636
+Compareing Result... borrowframe
+Compared in 34.1915705
+[Parsed_ssim_0 @ 000001a87424c240] SSIM R:0.974079 (15.863418) G:0.973454 (15.759996) B:0.960275 (14.009348) All:0.969269 (15.124257)
+[Parsed_psnr_1 @ 000001a87424d4c0] PSNR r:39.850553 g:35.506917 b:32.103176 average:34.766720 min:22.293653 max:inf
+
+-------------------
+borrowframe
+Loop: 10/3/3/10
+CASE: 05
+Processed in 31.6188388
+Compareing Result... borrowframe
+Compared in 34.608657
+[Parsed_ssim_0 @ 0000021a242405c0] SSIM R:0.978619 (16.699753) G:0.985592 (18.414079) B:0.975697 (16.143360) All:0.979969 (16.983075)
+[Parsed_psnr_1 @ 0000021a242fb7c0] PSNR r:40.851355 g:39.962997 b:36.465407 average:38.656988 min:24.845280 max:inf
+
+===================
+-------------------
+splitbergman-skip
+Loop: 10/3/3/10
+CASE: 01
+Processed in 14.9161326
+Compareing Result... splitbergman-skip
+Compared in 21.3219682
+[Parsed_ssim_0 @ 00000199b0f505c0] SSIM R:0.911329 (10.522197) G:0.914926 (10.702046) B:0.901585 (10.069380) All:0.909280 (10.422977)
+[Parsed_psnr_1 @ 00000199b100b7c0] PSNR r:25.116812 g:22.506218 b:21.126784 average:22.620532 min:13.916150 max:inf
+
+-------------------
+splitbergman-skip
+Loop: 10/3/3/10
+CASE: 02
+Processed in 16.7115287
+Compareing Result... splitbergman-skip
+Compared in 22.322783
+[Parsed_ssim_0 @ 0000027511c8a4c0] SSIM R:0.926497 (11.336922) G:0.928114 (11.433529) B:0.913032 (10.606391) All:0.922547 (11.109634)
+[Parsed_psnr_1 @ 0000027511c8b700] PSNR r:26.238977 g:24.323417 b:22.583814 average:24.130865 min:14.432767 max:inf
+
+-------------------
+splitbergman-skip
+Loop: 10/3/3/10
+CASE: 03
+Processed in 17.0325477
+Compareing Result... splitbergman-skip
+Compared in 23.7266057
+[Parsed_ssim_0 @ 000001d5be1ca4c0] SSIM R:0.923817 (11.181443) G:0.944288 (12.540537) B:0.930512 (11.580909) All:0.932873 (11.731005)
+[Parsed_psnr_1 @ 000001d5be1cb700] PSNR r:34.092193 g:30.042096 b:26.922991 average:29.442323 min:19.228375 max:inf
+
+-------------------
+splitbergman-skip
+Loop: 10/3/3/10
+CASE: 04
+Processed in 19.4066745
+Compareing Result... splitbergman-skip
+Compared in 24.5224996
+[Parsed_ssim_0 @ 00000267d92ba4c0] SSIM R:0.923964 (11.189815) G:0.952914 (13.271078) B:0.945457 (12.632639) All:0.940779 (12.275207)
+[Parsed_psnr_1 @ 00000267d92bb700] PSNR r:35.525285 g:32.372200 b:30.074248 average:32.117405 min:22.238456 max:inf
+
+-------------------
+splitbergman-skip
+Loop: 10/3/3/10
+CASE: 05
+Processed in 17.80409
+Compareing Result... splitbergman-skip
+Compared in 23.7596405
+[Parsed_ssim_0 @ 000001c04de6a4c0] SSIM R:0.901936 (10.084926) G:0.953307 (13.307459) B:0.952956 (13.274933) All:0.936066 (11.942705)
+[Parsed_psnr_1 @ 000001c04de6b700] PSNR r:36.117723 g:34.386551 b:31.750705 average:33.709607 min:25.920989 max:inf
+
+===================
+-------------------
+skipnborrow
+Loop: 10/3/3/10
+CASE: 01
+Processed in 14.7838974
+Compareing Result... skipnborrow
+Compared in 21.2488423
+[Parsed_ssim_0 @ 00000228c58aa4c0] SSIM R:0.913185 (10.614027) G:0.915964 (10.755347) B:0.903846 (10.170342) All:0.910998 (10.506018)
+[Parsed_psnr_1 @ 00000228c58ab700] PSNR r:25.146939 g:22.523354 b:21.140647 average:22.638562 min:13.916150 max:inf
+
+-------------------
+skipnborrow
+Loop: 10/3/3/10
+CASE: 02
+Processed in 16.2858142
+Compareing Result... skipnborrow
+Compared in 22.7689374
+[Parsed_ssim_0 @ 0000021e1549a4c0] SSIM R:0.928745 (11.471840) G:0.928477 (11.455559) B:0.914098 (10.659943) All:0.923773 (11.178926)
+[Parsed_psnr_1 @ 0000021e1549b700] PSNR r:26.270776 g:24.328131 b:22.595982 average:24.144672 min:14.432767 max:inf
+
+-------------------
+skipnborrow
+Loop: 10/3/3/10
+CASE: 03
+Processed in 17.9778252
+Compareing Result... skipnborrow
+Compared in 23.3217979
+[Parsed_ssim_0 @ 000001c0d9f3a4c0] SSIM R:0.938842 (12.135496) G:0.947270 (12.779414) B:0.931993 (11.674488) All:0.939369 (12.173023)
+[Parsed_psnr_1 @ 000001c0d9f3b700] PSNR r:34.452871 g:30.135889 b:26.971476 average:29.538575 min:19.228375 max:inf
+
+-------------------
+skipnborrow
+Loop: 10/3/3/10
+CASE: 04
+Processed in 18.6874542
+Compareing Result... skipnborrow
+Compared in 25.2082325
+[Parsed_ssim_0 @ 0000022885faa4c0] SSIM R:0.947466 (12.795629) G:0.960758 (14.062473) B:0.947582 (12.805214) All:0.951936 (13.181758)
+[Parsed_psnr_1 @ 0000022885fab700] PSNR r:36.220631 g:32.602255 b:30.126934 average:32.318067 min:22.238456 max:inf
+
+-------------------
+skipnborrow
+Loop: 10/3/3/10
+CASE: 05
+Processed in 18.4978534
+Compareing Result... skipnborrow
+Compared in 25.9064087
+[Parsed_ssim_0 @ 000002344dc105c0] SSIM R:0.950749 (13.075820) G:0.971312 (15.423022) B:0.959977 (13.976934) All:0.960679 (14.053798)
+[Parsed_psnr_1 @ 000002344dccb7c0] PSNR r:38.611146 g:36.098240 b:32.425172 average:34.969500 min:26.970824 max:inf
+
+===================
+-------------------
+OpenCV
+Loop: -
+CASE: 01
+Processed in 9.861043
+Compareing Result... )
+Compared in 19.2734598
+[Parsed_ssim_0 @ 000001a3a257a4c0] SSIM R:0.975009 (16.022154) G:0.968230 (14.979772) B:0.961437 (14.138289) All:0.968225 (14.979172)
+[Parsed_psnr_1 @ 000001a3a257b700] PSNR r:38.063087 g:36.136215 b:34.303653 average:35.901463 min:25.508875 max:inf
+
+-------------------
+OpenCV
+Loop: -
+CASE: 02
+Processed in 9.953216
+Compareing Result... )
+Compared in 19.2119649
+[Parsed_ssim_0 @ 000001a277bba4c0] SSIM R:0.967639 (14.899810) G:0.961616 (14.158487) B:0.954979 (13.465813) All:0.961411 (14.135396)
+[Parsed_psnr_1 @ 000001a277bbb700] PSNR r:35.133385 g:34.452640 b:33.053166 average:34.124926 min:24.515900 max:inf
+
+-------------------
+OpenCV
+Loop: -
+CASE: 03
+Processed in 9.9166737
+Compareing Result... )
+Compared in 19.6069396
+[Parsed_ssim_0 @ 00000237e3f1a4c0] SSIM R:0.970256 (15.265983) G:0.963311 (14.354694) B:0.953498 (13.325241) All:0.962355 (14.242924)
+[Parsed_psnr_1 @ 00000237e3f1b700] PSNR r:38.514445 g:35.009380 b:32.710697 average:34.805917 min:24.295978 max:inf
+
+-------------------
+OpenCV
+Loop: -
+CASE: 04
+Processed in 10.1553201
+Compareing Result... )
+Compared in 19.8706123
+[Parsed_ssim_0 @ 00000233b6d0a4c0] SSIM R:0.968159 (14.970190) G:0.967723 (14.911091) B:0.956721 (13.637222) All:0.964201 (14.461316)
+[Parsed_psnr_1 @ 00000233b6d0b700] PSNR r:39.665024 g:36.066027 b:33.352799 average:35.646334 min:24.816291 max:inf
+
+-------------------
+OpenCV
+Loop: -
+CASE: 05
+Processed in 10.2210369
+Compareing Result... )
+Compared in 20.1971904
+[Parsed_ssim_0 @ 0000024abc7c05c0] SSIM R:0.971962 (15.522482) G:0.979455 (16.872990) B:0.967788 (14.919798) All:0.973068 (15.697359)
+[Parsed_psnr_1 @ 0000024abc87b7c0] PSNR r:42.495417 g:40.121383 b:36.622756 average:39.075483 min:30.616158 max:inf
+
+PS C:\Users\pakkapon\Documents\Github\matlab-inpaint-speed-analysis\experiment-11-reduce-to-15-sec\taskrunner\splitbergman-non-skip-borrow>

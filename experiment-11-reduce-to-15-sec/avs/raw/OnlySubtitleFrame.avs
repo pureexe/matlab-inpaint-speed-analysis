@@ -1,4 +1,4 @@
-LoadPlugin("C:\Users\pakkapon\Documents\Github\matlab-inpaint-speed-analysis\experiment-05\dll\filter\YaeDetector.dll")
+LoadPlugin("C:\Users\pakkapon\Documents\Github\matlab-inpaint-speed-analysis\experiment-05\dll\filter\HasSubtitle.dll")
 
 function OnlySubtitleFrame(clip Source, clip Reference)
 {
