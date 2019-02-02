@@ -1,0 +1,53 @@
+PS C:\Users\pakkapon\Documents\Github\matlab-inpaint-speed-analysis\experiment-09\taskrunner\splitbergman-non-skip-borrow> .\test-10000loop.ps1
+===================
+-------------------
+splitbergman
+Loop: 10000
+CASE: 01
+Processed in 5318.3644792
+Compareing Result... splitbergman
+Compared in 4112.5417165
+[Parsed_ssim_0 @ 000001881447a4c0] SSIM R:0.967404 (14.868309) G:0.971684 (15.479717) B:0.968942 (15.078227) All:0.969343 (15.134736)
+[Parsed_psnr_1 @ 000001881447b700] PSNR r:32.658171 g:34.391710 b:33.527510 average:33.468312 min:19.147410 max:inf
+
+-------------------
+splitbergman
+Loop: 10000
+CASE: 02
+Processed in 4718.2704808
+Compareing Result... splitbergman
+Compared in 3785.1781046
+[Parsed_ssim_0 @ 000002ea15b4a4c0] SSIM R:0.961101 (14.100584) G:0.960179 (13.998923) B:0.955994 (13.564892) All:0.959091 (13.881858)
+[Parsed_psnr_1 @ 000002ea15b4b700] PSNR r:31.610642 g:31.137006 b:30.174397 average:30.932273 min:20.574485 max:inf
+
+-------------------
+splitbergman
+Loop: 10000
+CASE: 03
+Processed in 4534.774592
+Compareing Result... splitbergman
+Compared in 3535.767989
+[Parsed_ssim_0 @ 000002099a0fa4c0] SSIM R:0.963022 (14.320553) G:0.963860 (14.420159) B:0.958525 (13.822157) All:0.961803 (14.179651)
+[Parsed_psnr_1 @ 000002099a0fb700] PSNR r:33.196191 g:32.438539 b:31.339712 average:32.257340 min:22.616903 max:inf
+
+-------------------
+splitbergman
+Loop: 10000
+CASE: 04
+Processed in 5212.5062826
+Compareing Result... splitbergman
+Compared in 4179.3461043
+[Parsed_ssim_0 @ 000001e335b8a4c0] SSIM R:0.964043 (14.442217) G:0.966952 (14.808540) B:0.960874 (14.075335) All:0.963956 (14.431724)
+[Parsed_psnr_1 @ 000001e335b8b700] PSNR r:32.649388 g:33.159191 b:31.751881 average:32.480719 min:21.471744 max:inf
+
+-------------------
+splitbergman
+Loop: 10000
+CASE: 05
+Processed in 5581.5061158
+Compareing Result... splitbergman
+Compared in 4535.1020657
+[Parsed_ssim_0 @ 0000026a1ba2a4c0] SSIM R:0.973275 (15.730750) G:0.977873 (16.550862) B:0.972369 (15.586069) All:0.974506 (15.935581)
+[Parsed_psnr_1 @ 0000026a1ba2b700] PSNR r:35.584930 g:35.901430 b:34.483302 average:35.279678 min:21.881278 max:inf
+
+PS C:\Users\pakkapon\Documents\Github\matlab-inpaint-speed-analysis\experiment-09\taskrunner\splitbergman-non-skip-borrow>

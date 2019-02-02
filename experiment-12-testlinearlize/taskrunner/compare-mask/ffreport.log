@@ -1,0 +1,24 @@
+ffmpeg started on 2018-11-15 at 09:16:16
+Report written to "ffreport.log"
+Command line:
+"C:\\Program Files (x86)\\Konayuki-moe\\KONAYUKI PLUS\\codecs\\ffmpeg.exe" -loglevel panic -hide_banner -report -i count-compare.avs -f null -
+Guessed Channel Layout for Input Stream #0.1 : mono
+Input #0, avisynth, from 'count-compare.avs':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: 71 kb/s
+    Stream #0:0: Video: rawvideo (BGRA / 0x41524742), bgra, 640x480, 24 fps, 24 tbr, 24 tbn, 24 tbc
+    Stream #0:1: Audio: pcm_s16le, 44100 Hz, mono, s16, 705 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> wrapped_avframe (native))
+  Stream #0:1 -> #0:1 (pcm_s16le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : KONAYUKI PLUS
+    Stream #0:0: Video: wrapped_avframe, bgra(progressive), 640x480, q=2-31, 200 kb/s, 24 fps, 24 tbn, 24 tbc
+    Metadata:
+      encoder         : KONAYUKI PLUS wrapped_avframe
+    Stream #0:1: Audio: pcm_s16le, 44100 Hz, mono, s16, 705 kb/s
+    Metadata:
+      encoder         : KONAYUKI PLUS pcm_s16le
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=5.94x    
+video:1kB audio:4kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown

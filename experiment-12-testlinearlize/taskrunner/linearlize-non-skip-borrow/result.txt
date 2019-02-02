@@ -1,0 +1,207 @@
+PS C:\Users\pakkapon\Documents\Github\matlab-inpaint-speed-analysis\experiment-12-testlinearlize\taskrunner\linearlize-non-skip-borrow> .\test-20181118.ps1
+===================
+-------------------
+linearlize-nonoptimize
+Loop: 10/3/3/10
+CASE: 01
+Processed in 63.226613
+Compareing Result... linearlize-nonoptimize
+Compared in 100.8594957
+[Parsed_ssim_0 @ 000002113c4ca480] SSIM R:0.756357 (6.132460) G:0.754214 (6.094433) B:0.740121 (5.852295) All:0.750231 (6.024613)
+[Parsed_psnr_1 @ 000002113c4cb700] PSNR r:18.511532 g:17.946521 b:15.772040 average:17.242604 min:9.865975 max:inf
+
+-------------------
+linearlize-nonoptimize
+Loop: 10/3/3/10
+CASE: 02
+Processed in 58.2703148
+Compareing Result... linearlize-nonoptimize
+Compared in 96.4473542
+[Parsed_ssim_0 @ 00000296b7c1a480] SSIM R:0.761571 (6.226413) G:0.757446 (6.151916) B:0.745250 (5.938850) All:0.754756 (6.104009)
+[Parsed_psnr_1 @ 00000296b7c1b700] PSNR r:18.083882 g:17.455323 b:15.740082 average:16.976654 min:9.866150 max:inf
+
+-------------------
+linearlize-nonoptimize
+Loop: 10/3/3/10
+CASE: 03
+Processed in 57.4685222
+Compareing Result... linearlize-nonoptimize
+Compared in 99.597415
+[Parsed_ssim_0 @ 000001f7df61a3c0] SSIM R:0.757214 (6.147764) G:0.756031 (6.126657) B:0.745422 (5.941787) All:0.752889 (6.071079)
+[Parsed_psnr_1 @ 000001f7df61b640] PSNR r:17.008631 g:16.641978 b:15.628842 average:16.386489 min:9.849315 max:inf
+
+-------------------
+linearlize-nonoptimize
+Loop: 10/3/3/10
+CASE: 04
+Processed in 58.0373361
+Compareing Result... linearlize-nonoptimize
+Compared in 100.840609
+[Parsed_ssim_0 @ 00000279bebaa480] SSIM R:0.761676 (6.228331) G:0.758915 (6.178292) B:0.750481 (6.028971) All:0.757024 (6.144370)
+[Parsed_psnr_1 @ 00000279bebab700] PSNR r:17.775679 g:17.266206 b:16.118638 average:16.997135 min:9.865955 max:inf
+
+-------------------
+linearlize-nonoptimize
+Loop: 10/3/3/10
+CASE: 05
+Processed in 61.7812908
+Compareing Result... linearlize-nonoptimize
+Compared in 96.9535778
+[Parsed_ssim_0 @ 000002398847a480] SSIM R:0.762909 (6.250841) G:0.770870 (6.399184) B:0.758694 (6.174325) All:0.764158 (6.273783)
+[Parsed_psnr_1 @ 000002398847b700] PSNR r:18.495616 g:18.672779 b:17.189609 average:18.067424 min:9.865975 max:inf
+
+===================
+-------------------
+linearlize-borrow
+Loop: 10/3/3/10
+CASE: 01
+Processed in 168.8992481
+Compareing Result... linearlize-borrow
+Compared in 185.1780437
+[Parsed_ssim_0 @ 000001fc70e7a3c0] SSIM R:0.827622 (7.635192) G:0.850405 (8.250837) B:0.830406 (7.705887) All:0.836144 (7.855389)
+[Parsed_psnr_1 @ 000001fc70e7b640] PSNR r:20.808801 g:20.808333 b:19.101755 average:20.162202 min:9.909545 max:inf
+
+-------------------
+linearlize-borrow
+Loop: 10/3/3/10
+CASE: 02
+Processed in 158.2840478
+Compareing Result... linearlize-borrow
+Compared in 179.9095002
+[Parsed_ssim_0 @ 000001a2fd72c240] SSIM R:0.825776 (7.588926) G:0.840894 (7.983133) B:0.823939 (7.543360) All:0.830203 (7.700699)
+[Parsed_psnr_1 @ 000001a2fd72d4c0] PSNR r:20.353822 g:20.811162 b:19.173244 average:20.056707 min:10.042723 max:inf
+
+-------------------
+linearlize-borrow
+Loop: 10/3/3/10
+CASE: 03
+Processed in 165.3367847
+Compareing Result... linearlize-borrow
+Compared in 185.070469
+[Parsed_ssim_0 @ 000001da4f58a480] SSIM R:0.812063 (7.259878) G:0.823611 (7.535285) B:0.812966 (7.280794) All:0.816213 (7.356861)
+[Parsed_psnr_1 @ 000001da4f58b700] PSNR r:19.425758 g:19.050396 b:18.002292 average:18.783502 min:9.935031 max:inf
+
+-------------------
+linearlize-borrow
+Loop: 10/3/3/10
+CASE: 04
+Processed in 154.5906299
+Compareing Result... linearlize-borrow
+Compared in 158.0994516
+[Parsed_ssim_0 @ 000002114c83a480] SSIM R:0.813814 (7.300536) G:0.827233 (7.625381) B:0.818725 (7.416627) All:0.819924 (7.445443)
+[Parsed_psnr_1 @ 000002114c83b700] PSNR r:19.153612 g:19.246941 b:18.446489 average:18.934053 min:10.126163 max:inf
+
+-------------------
+linearlize-borrow
+Loop: 10/3/3/10
+CASE: 05
+Processed in 161.0994373
+Compareing Result... linearlize-borrow
+Compared in 166.897625
+[Parsed_ssim_0 @ 000002ad5b69a480] SSIM R:0.832019 (7.747403) G:0.863675 (8.654244) B:0.849352 (8.220364) All:0.848349 (8.191539)
+[Parsed_psnr_1 @ 000002ad5b69b700] PSNR r:21.021835 g:21.419555 b:20.275957 average:20.879621 min:9.909545 max:inf
+
+===================
+-------------------
+linearlize-skip
+Loop: 10/3/3/10
+CASE: 01
+Processed in 44.2211938
+Compareing Result... linearlize-skip
+Compared in 85.6952658
+[Parsed_ssim_0 @ 00000216e87ba480] SSIM R:0.752799 (6.069498) G:0.751049 (6.038866) B:0.738760 (5.829602) All:0.747536 (5.978007)
+[Parsed_psnr_1 @ 00000216e87bb700] PSNR r:18.442466 g:17.788129 b:15.590209 average:17.095240 min:9.865975 max:inf
+
+-------------------
+linearlize-skip
+Loop: 10/3/3/10
+CASE: 02
+Processed in 47.106919
+Compareing Result... linearlize-skip
+Compared in 88.0959904
+[Parsed_ssim_0 @ 0000026f06b0a480] SSIM R:0.758747 (6.175279) G:0.755156 (6.111098) B:0.744266 (5.922112) All:0.752723 (6.068161)
+[Parsed_psnr_1 @ 0000026f06b0b700] PSNR r:18.040333 g:17.349484 b:15.610676 average:16.876322 min:9.815293 max:inf
+
+-------------------
+linearlize-skip
+Loop: 10/3/3/10
+CASE: 03
+Processed in 46.9518933
+Compareing Result... linearlize-skip
+Compared in 86.2310002
+[Parsed_ssim_0 @ 0000020b0d92a480] SSIM R:0.756574 (6.136337) G:0.754482 (6.099158) B:0.744618 (5.928104) All:0.751891 (6.053583)
+[Parsed_psnr_1 @ 0000020b0d92b700] PSNR r:16.959372 g:16.624500 b:15.585644 average:16.349604 min:9.849779 max:inf
+
+-------------------
+linearlize-skip
+Loop: 10/3/3/10
+CASE: 04
+Processed in 50.815246
+Compareing Result... linearlize-skip
+Compared in 93.6068887
+[Parsed_ssim_0 @ 00000211b5caa480] SSIM R:0.759841 (6.195018) G:0.757734 (6.157079) B:0.749574 (6.013204) All:0.755716 (6.121059)
+[Parsed_psnr_1 @ 00000211b5cab700] PSNR r:17.750568 g:17.238835 b:16.098746 average:16.973444 min:9.865955 max:inf
+
+-------------------
+linearlize-skip
+Loop: 10/3/3/10
+CASE: 05
+Processed in 47.1160504
+Compareing Result... linearlize-skip
+Compared in 94.0494552
+[Parsed_ssim_0 @ 000001c7abb6a3c0] SSIM R:0.761328 (6.221988) G:0.769315 (6.369814) B:0.757197 (6.147463) All:0.762614 (6.245442)
+[Parsed_psnr_1 @ 000001c7abb6b640] PSNR r:18.492010 g:18.657772 b:17.174905 average:18.055981 min:9.865975 max:inf
+
+===================
+-------------------
+linearlize-skipborrow
+Loop: 10/3/3/10
+CASE: 01
+Processed in 45.9795341
+Compareing Result... linearlize-skipborrow
+Compared in 90.6374567
+[Parsed_ssim_0 @ 000001c4ec71a3c0] SSIM R:0.769541 (6.374071) G:0.778252 (6.541409) B:0.759537 (6.189515) All:0.769110 (6.365953)
+[Parsed_psnr_1 @ 000001c4ec71b640] PSNR r:19.109368 g:18.745410 b:16.508157 average:17.961452 min:9.865975 max:inf
+
+-------------------
+linearlize-skipborrow
+Loop: 10/3/3/10
+CASE: 02
+Processed in 46.8125156
+Compareing Result... linearlize-skipborrow
+Compared in 89.384609
+[Parsed_ssim_0 @ 0000022923b2a480] SSIM R:0.778400 (6.544294) G:0.779162 (6.559266) B:0.768658 (6.357456) All:0.775407 (6.486030)
+[Parsed_psnr_1 @ 0000022923b2b700] PSNR r:18.706906 g:18.227808 b:16.327837 average:17.627939 min:9.815293 max:inf
+
+-------------------
+linearlize-skipborrow
+Loop: 10/3/3/10
+CASE: 03
+Processed in 46.5012161
+Compareing Result... linearlize-skipborrow
+Compared in 88.9621867
+[Parsed_ssim_0 @ 00000245d485a480] SSIM R:0.767126 (6.328788) G:0.770605 (6.394162) B:0.762766 (6.248222) All:0.766832 (6.323314)
+[Parsed_psnr_1 @ 00000245d485b700] PSNR r:17.412004 g:17.045017 b:15.963130 average:16.762209 min:9.850746 max:inf
+
+-------------------
+linearlize-skipborrow
+Loop: 10/3/3/10
+CASE: 04
+Processed in 46.9840282
+Compareing Result... linearlize-skipborrow
+Compared in 88.7889714
+[Parsed_ssim_0 @ 00000246a825a400] SSIM R:0.770264 (6.387713) G:0.773518 (6.449657) B:0.765280 (6.294506) All:0.769687 (6.376824)
+[Parsed_psnr_1 @ 00000246a825b680] PSNR r:18.132747 g:17.877084 b:16.842822 average:17.580910 min:10.083487 max:inf
+
+-------------------
+linearlize-skipborrow
+Loop: 10/3/3/10
+CASE: 05
+Processed in 44.9411277
+Compareing Result... linearlize-skipborrow
+Compared in 85.2834904
+[Parsed_ssim_0 @ 000002976522a400] SSIM R:0.779979 (6.575367) G:0.790062 (6.779093) B:0.777475 (6.526219) All:0.782506 (6.625521)
+[Parsed_psnr_1 @ 000002976522b680] PSNR r:19.286944 g:19.514023 b:17.822191 average:18.807480 min:9.865975 max:inf
+
+===================
+-------------------

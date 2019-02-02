@@ -1,0 +1,152 @@
+PS C:\Users\pakkapon\Documents\Github\matlab-inpaint-speed-analysis\experiment-09\taskrunner\compare-mask> .\test-20181112.ps1
+-------------------
+language: english
+case: 01
+process_time: 26.2530687
+SSIM_PSNR_TIME: 28.7282721
+[Parsed_ssim_0 @ 000001ef7766c9c0] SSIM R:0.917395 (10.829930) G:0.917395 (10.829930) B:0.917395 (10.829930) All:0.917395 (10.829931)
+[Parsed_psnr_1 @ 000001ef776ee7c0] PSNR r:18.309070 g:18.309070 b:18.309070 average:18.309070 min:10.873209 max:inf
+count_mark: 28631063
+count_mask: 27281185
+count_compare: 3477960
+-------------------
+language: english
+case: 02
+process_time: 25.0609265
+SSIM_PSNR_TIME: 29.0179007
+[Parsed_ssim_0 @ 0000016efc5f9f80] SSIM R:0.918472 (10.886947) G:0.918472 (10.886947) B:0.918472 (10.886947) All:0.918472 (10.886948)
+[Parsed_psnr_1 @ 0000016efc5fa200] PSNR r:18.518980 g:18.518980 b:18.518980 average:18.518980 min:12.038443 max:inf
+count_mark: 28513248
+count_mask: 27269671
+count_compare: 3514859
+-------------------
+language: english
+case: 03
+process_time: 28.3863305
+SSIM_PSNR_TIME: 26.2741726
+[Parsed_ssim_0 @ 000001debe8def40] SSIM R:0.735934 (5.782882) G:0.735934 (5.782882) B:0.735934 (5.782882) All:0.735934 (5.782882)
+[Parsed_psnr_1 @ 000001debe8df1c0] PSNR r:8.272008 g:8.272008 b:8.272008 average:8.272008 min:4.250181 max:inf
+count_mark: 28488066
+count_mask: 29924996
+count_compare: 31608332
+-------------------
+language: english
+case: 04
+process_time: 27.9297304
+SSIM_PSNR_TIME: 28.1555398
+[Parsed_ssim_0 @ 00000202eb8fef40] SSIM R:0.918268 (10.876053) G:0.918268 (10.876053) B:0.918268 (10.876053) All:0.918268 (10.876054)
+[Parsed_psnr_1 @ 00000202eb8ff1c0] PSNR r:18.485566 g:18.485566 b:18.485566 average:18.485566 min:8.846669 max:inf
+count_mark: 28527105
+count_mask: 27191136
+count_compare: 3854121
+-------------------
+language: english
+case: 05
+process_time: 26.7806424
+SSIM_PSNR_TIME: 27.2620288
+[Parsed_ssim_0 @ 000001a23ccda540] SSIM R:0.917441 (10.832369) G:0.917441 (10.832369) B:0.917441 (10.832369) All:0.917441 (10.832370)
+[Parsed_psnr_1 @ 000001a23ccdb7c0] PSNR r:18.349147 g:18.349147 b:18.349147 average:18.349147 min:9.789749 max:inf
+count_mark: 28709405
+count_mask: 27326584
+count_compare: 3909582
+-------------------
+language: thai
+case: 01
+process_time: 24.2161957
+SSIM_PSNR_TIME: 27.077487
+[Parsed_ssim_0 @ 000001e66d6c9f80] SSIM R:0.925563 (11.282097) G:0.925563 (11.282097) B:0.925563 (11.282097) All:0.925563 (11.282098)
+[Parsed_psnr_1 @ 000001e66d6ca200] PSNR r:19.269610 g:19.269610 b:19.269610 average:19.269610 min:10.625957 max:inf
+count_mark: 24044004
+count_mask: 23190522
+count_compare: 2108772
+-------------------
+language: thai
+case: 02
+process_time: 24.061171
+SSIM_PSNR_TIME: 24.8292236
+[Parsed_ssim_0 @ 0000016e4fcbef40] SSIM R:0.926661 (11.346656) G:0.926661 (11.346656) B:0.926661 (11.346656) All:0.926661 (11.346657)
+[Parsed_psnr_1 @ 0000016e4fcbf1c0] PSNR r:19.589225 g:19.589225 b:19.589225 average:19.589225 min:12.038443 max:inf
+count_mark: 24026820
+count_mask: 23232287
+count_compare: 2204025
+-------------------
+language: thai
+case: 03
+process_time: 26.2847927
+SSIM_PSNR_TIME: 28.196099
+[Parsed_ssim_0 @ 000001eb1eddef40] SSIM R:0.926944 (11.363433) G:0.926944 (11.363433) B:0.926944 (11.363433) All:0.926944 (11.363435)
+[Parsed_psnr_1 @ 000001eb1eddf1c0] PSNR r:19.664248 g:19.664248 b:19.664248 average:19.664248 min:14.330569 max:inf
+count_mark: 24300589
+count_mask: 23189082
+count_compare: 2081340
+-------------------
+language: thai
+case: 04
+process_time: 29.1119248
+SSIM_PSNR_TIME: 29.0590671
+[Parsed_ssim_0 @ 000001b66466ef40] SSIM R:0.926426 (11.332737) G:0.926426 (11.332737) B:0.926426 (11.332737) All:0.926426 (11.332738)
+[Parsed_psnr_1 @ 000001b66466f1c0] PSNR r:19.544020 g:19.544020 b:19.544020 average:19.544020 min:8.846669 max:inf
+count_mark: 23796276
+count_mask: 23277706
+count_compare: 2126004
+-------------------
+language: thai
+case: 05
+process_time: 25.0849607
+SSIM_PSNR_TIME: 25.9647371
+[Parsed_ssim_0 @ 0000020f672e9f80] SSIM R:0.925533 (11.280377) G:0.925533 (11.280377) B:0.925533 (11.280377) All:0.925533 (11.280378)
+[Parsed_psnr_1 @ 0000020f672ea200] PSNR r:19.353655 g:19.353655 b:19.353655 average:19.353655 min:9.789749 max:inf
+count_mark: 24247935
+count_mask: 23221502
+count_compare: 2185864
+-------------------
+language: japanese
+case: 01
+process_time: 24.6433201
+SSIM_PSNR_TIME: 24.4695541
+[Parsed_ssim_0 @ 000001a35cdcef40] SSIM R:0.909587 (10.437683) G:0.909587 (10.437683) B:0.909587 (10.437683) All:0.909587 (10.437684)
+[Parsed_psnr_1 @ 000001a35cdcf1c0] PSNR r:18.180201 g:18.180201 b:18.180201 average:18.180201 min:10.435354 max:inf
+count_mark: 30058101
+count_mask: 28509908
+count_compare: 3953067
+-------------------
+language: japanese
+case: 02
+process_time: 26.4720323
+SSIM_PSNR_TIME: 25.2081927
+[Parsed_ssim_0 @ 00000226f961ef40] SSIM R:0.910864 (10.499459) G:0.910864 (10.499459) B:0.910864 (10.499459) All:0.910864 (10.499460)
+[Parsed_psnr_1 @ 00000226f961f1c0] PSNR r:18.418400 g:18.418400 b:18.418400 average:18.418400 min:12.038443 max:inf
+count_mark: 30023923
+count_mask: 28534363
+count_compare: 3565609
+-------------------
+language: japanese
+case: 03
+process_time: 23.8151338
+SSIM_PSNR_TIME: 24.8552612
+[Parsed_ssim_0 @ 0000025143209f80] SSIM R:0.911094 (10.510667) G:0.911094 (10.510667) B:0.911094 (10.510667) All:0.911094 (10.510668)
+[Parsed_psnr_1 @ 000002514320a200] PSNR r:18.464527 g:18.464527 b:18.464527 average:18.464527 min:12.599010 max:inf
+count_mark: 30015047
+count_mask: 28537968
+count_compare: 3553128
+-------------------
+language: japanese
+case: 04
+process_time: 24.345182
+SSIM_PSNR_TIME: 24.5812033
+[Parsed_ssim_0 @ 0000023263859f00] SSIM R:0.910491 (10.481313) G:0.910491 (10.481313) B:0.910491 (10.481313) All:0.910491 (10.481314)
+[Parsed_psnr_1 @ 000002326385a180] PSNR r:18.359109 g:18.359109 b:18.359109 average:18.359109 min:8.846669 max:inf
+count_mark: 30065985
+count_mask: 28579778
+count_compare: 3961319
+-------------------
+language: japanese
+case: 05
+process_time: 24.5286428
+SSIM_PSNR_TIME: 28.5067943
+[Parsed_ssim_0 @ 0000020b85b5ef40] SSIM R:0.909468 (10.432002) G:0.909468 (10.432002) B:0.909468 (10.432002) All:0.909468 (10.432002)
+[Parsed_psnr_1 @ 0000020b85b5f1c0] PSNR r:18.203385 g:18.203385 b:18.203385 average:18.203385 min:9.789749 max:inf
+count_mark: 30354275
+count_mask: 28558848
+count_compare: 3671730
+PS C:\Users\pakkapon\Documents\Github\matlab-inpaint-speed-analysis\experiment-09\taskrunner\compare-mask>

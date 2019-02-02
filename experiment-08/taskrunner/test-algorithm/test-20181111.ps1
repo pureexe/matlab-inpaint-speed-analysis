@@ -10,7 +10,7 @@ function Generate-AVS {
 $avsTemplate = Get-Content -Path inpaint_template.avs 
 $avsCompareTemplate = Get-Content -Path compare_template.avs
 $algorithms = "splitbergman","borrowframe","skipnborrow","skipborrowlinearlize"
-$resolutions = (10,1,10,1),(10,1,10,4),(10,3,10,4),(10,10,10,4),(100,5,5,4),(100,5,10,4)
+$resolutions = (10,1,10,1),(10,1,10,4),(10,3,10,4),(10,10,10,4),(100,3,10,4),(100,10,10,4)
 Foreach ($algorithm in $algorithms){
 	echo "==================="
 	Foreach ($resolution in $resolutions){

@@ -1,0 +1,53 @@
+PS C:\Users\pakkapon\Documents\Github\matlab-inpaint-speed-analysis\experiment-12-testlinearlize\taskrunner\linearlize-non-skip-borrow> .\test-20181118.ps1
+===================
+-------------------
+linearlize-borrow
+Loop: 10/3/3/10
+CASE: 01
+Processed in 56.6326289
+Compareing Result... linearlize-borrow
+Compared in 86.2899131
+[Parsed_ssim_0 @ 0000017ac26ea480] SSIM R:0.823127 (7.523376) G:0.845937 (8.123016) B:0.825293 (7.576893) All:0.831452 (7.732769)
+[Parsed_psnr_1 @ 0000017ac26eb700] PSNR r:20.657545 g:20.660856 b:18.946212 average:20.010207 min:9.865975 max:inf
+
+-------------------
+linearlize-borrow
+Loop: 10/3/3/10
+CASE: 02
+Processed in 58.1795498
+Compareing Result... linearlize-borrow
+Compared in 91.7074167
+[Parsed_ssim_0 @ 0000026322d2a480] SSIM R:0.821786 (7.490575) G:0.836204 (7.856976) B:0.819062 (7.424697) All:0.825684 (7.586627)
+[Parsed_psnr_1 @ 0000026322d2b700] PSNR r:20.217454 g:20.657232 b:19.024316 average:19.910282 min:9.999514 max:inf
+
+-------------------
+linearlize-borrow
+Loop: 10/3/3/10
+CASE: 03
+Processed in 54.5231222
+Compareing Result... linearlize-borrow
+Compared in 88.2515388
+[Parsed_ssim_0 @ 0000025357c1e200] SSIM R:0.808026 (7.167578) G:0.819698 (7.440005) B:0.809124 (7.192478) All:0.812283 (7.264958)
+[Parsed_psnr_1 @ 0000025357cab780] PSNR r:19.288165 g:18.925893 b:17.881600 average:18.656750 min:9.891782 max:inf
+
+-------------------
+linearlize-borrow
+Loop: 10/3/3/10
+CASE: 04
+Processed in 54.8509426
+Compareing Result... linearlize-borrow
+Compared in 93.9509544
+[Parsed_ssim_0 @ 0000023130d3a480] SSIM R:0.810437 (7.222472) G:0.823415 (7.530463) B:0.814880 (7.325459) All:0.816244 (7.357586)
+[Parsed_psnr_1 @ 0000023130d3b700] PSNR r:19.047289 g:19.130237 b:18.323549 average:18.818307 min:10.083487 max:inf
+
+-------------------
+linearlize-borrow
+Loop: 10/3/3/10
+CASE: 05
+Processed in 57.860829
+Compareing Result... linearlize-borrow
+Compared in 85.2541018
+[Parsed_ssim_0 @ 0000024e159ca480] SSIM R:0.827716 (7.637538) G:0.859773 (8.531688) B:0.844857 (8.092665) All:0.844115 (8.071959)
+[Parsed_psnr_1 @ 0000024e159cb700] PSNR r:20.870056 g:21.276315 b:20.128827 average:20.732135 min:9.865975 max:inf
+
+===================
