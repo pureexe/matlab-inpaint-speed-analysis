@@ -1,0 +1,40 @@
+ffmpeg started on 2019-02-03 at 18:43:44
+Report written to "ffreport.log"
+Command line:
+"C:\\Program Files (x86)\\Konayuki-moe\\KONAYUKI PLUS\\codecs\\ffmpeg.exe" -loglevel panic -hide_banner -report -i test.avs -i original_crop_onlysubtitle.avs -lavfi "ssim;[0:v][1:v]psnr" -f null -
+Guessed Channel Layout for Input Stream #0.1 : stereo
+Input #0, avisynth, from 'test.avs':
+  Duration: 00:00:37.29, start: 0.000000, bitrate: 0 kb/s
+    Stream #0:0: Video: rawvideo (BGR[24] / 0x18524742), bgr24, 720x70, 24 fps, 24 tbr, 24 tbn, 24 tbc
+    Stream #0:1: Audio: pcm_f32le, 44100 Hz, stereo, flt, 2822 kb/s
+Guessed Channel Layout for Input Stream #1.1 : stereo
+Input #1, avisynth, from 'original_crop_onlysubtitle.avs':
+  Duration: 00:00:37.29, start: 0.000000, bitrate: 0 kb/s
+    Stream #1:0: Video: rawvideo (BGR[24] / 0x18524742), bgr24, 720x70, 24 fps, 24 tbr, 24 tbn, 24 tbc
+    Stream #1:1: Audio: pcm_f32le, 44100 Hz, stereo, flt, 2822 kb/s
+Stream mapping:
+  Stream #0:0 (rawvideo) -> ssim:main (graph 0)
+  Stream #0:0 (rawvideo) -> psnr:main (graph 0)
+  Stream #1:0 (rawvideo) -> ssim:reference (graph 0)
+  Stream #1:0 (rawvideo) -> psnr:reference (graph 0)
+  ssim (graph 0) -> Stream #0:0 (wrapped_avframe)
+  psnr (graph 0) -> Stream #0:1 (wrapped_avframe)
+  Stream #0:1 -> #0:2 (pcm_f32le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : KONAYUKI PLUS
+    Stream #0:0: Video: wrapped_avframe, gbrp(progressive), 720x70, q=2-31, 200 kb/s, 24 fps, 24 tbn, 24 tbc
+    Metadata:
+      encoder         : KONAYUKI PLUS wrapped_avframe
+    Stream #0:1: Video: wrapped_avframe, gbrp(progressive), 720x70, q=2-31, 200 kb/s, 24 fps, 24 tbn, 24 tbc
+    Metadata:
+      encoder         : KONAYUKI PLUS wrapped_avframe
+    Stream #0:2: Audio: pcm_s16le, 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : KONAYUKI PLUS pcm_s16le
+frame=    5 fps=0.0 q=-0.0 q=-0.0 size=N/A time=00:00:00.20 bitrate=N/A speed=0.413x    frame=   10 fps=8.9 q=-0.0 q=-0.0 size=N/A time=00:00:00.41 bitrate=N/A speed=0.372x    frame=   15 fps=8.6 q=-0.0 q=-0.0 size=N/A time=00:00:00.62 bitrate=N/A speed=0.359x    frame=   19 fps=8.5 q=-0.0 q=-0.0 size=N/A time=00:00:00.79 bitrate=N/A speed=0.352x    frame=   23 fps=8.4 q=-0.0 q=-0.0 size=N/A time=00:00:00.95 bitrate=N/A speed=0.348x    frame=   27 fps=8.2 q=-0.0 q=-0.0 size=N/A time=00:00:01.12 bitrate=N/A speed=0.342x    frame=   31 fps=8.2 q=-0.0 q=-0.0 size=N/A time=00:00:01.29 bitrate=N/A speed=0.34x    frame=   35 fps=8.1 q=-0.0 q=-0.0 size=N/A time=00:00:01.45 bitrate=N/A speed=0.336x    frame=   39 fps=8.0 q=-0.0 q=-0.0 size=N/A time=00:00:01.62 bitrate=N/A speed=0.334x    frame=   42 fps=7.8 q=-0.0 Lq=-0.0 size=N/A time=00:00:01.75 bitrate=N/A speed=0.326x    
+video:44kB audio:301kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[Parsed_ssim_0 @ 000001ba126f40c0] SSIM R:0.935514 (11.905320) G:0.981244 (17.268604) B:0.971402 (15.436623) All:0.962720 (14.285225)
+[Parsed_psnr_1 @ 000001ba126f4300] PSNR r:36.287939 g:39.847129 b:36.979519 average:37.454303 min:31.969225 max:inf
+Exiting normally, received signal 15.

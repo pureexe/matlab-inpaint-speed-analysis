@@ -1,7 +1,7 @@
-#$languages = "english","thai","japanese"
-#$cases = "01","02","03","04","05"
-$cases = "03"
-$languages = "english"
+$languages = "english","thai","japanese"
+$cases = "01","02","03","04","05"
+#$cases = "03"
+#$languages = "english"
 
 function Generate-AVS {
 	$currentAvs = $args[0]
